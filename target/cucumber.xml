@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="14" time="570.513">
-    <testcase classname="NHS Costs Checker for UK Citizen from England" name="Submit the form with Partner, TaxBenifits and PaidUniversalCredit and verify the results (Age above 19)" time="42.194">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="14" time="276.982">
+    <testcase classname="NHS Costs Checker for UK Citizen from England" name="Submit the form with Partner, TaxBenifits and PaidUniversalCredit and verify the results (Age above 19)" time="23.756">
         <system-out><![CDATA[Given I am a person from England practicing GP "yes" and registered dental in "England".passed
 When I am born in "2001" at England.........................................passed
 And I put my circumstances into the checker tool with "yes" Partner "yes" TaxBenefits and "yes" PaidUniversalCredit from England.passed
 Then I should get a result of whether I will get help or not if i am from England.passed
 ]]></system-out>
     </testcase>
-    <testcase classname="NHS Costs Checker for UK Citizen from England" name="Submit the form without Partner, TaxBenifits, with some benefits and live in care home and verify the results (Age above 50)" time="45.735">
+    <testcase classname="NHS Costs Checker for UK Citizen from England" name="Submit the form without Partner, TaxBenifits, with some benefits and live in care home and verify the results (Age above 50)" time="20.854">
         <system-out><![CDATA[Given I am a person from England practicing GP "no" and registered dental in "Wales".passed
 When I am born in "1971" at England.........................................passed
 And I put my circumstances into the checker tool with "no" Partner "no" TaxBenefits and "no,different benefit" PaidUniversalCredit from England.passed
@@ -15,7 +15,7 @@ And I live in Care home "yes" at England....................................pass
 Then I should get a result of whether I will get help or not if i am from England.passed
 ]]></system-out>
     </testcase>
-    <testcase classname="NHS Costs Checker for UK Citizen from England" name="Submit the form without Partner, TaxBenifits, with some benfits and not live in care home and verify the (Age below 50)" time="42.436">
+    <testcase classname="NHS Costs Checker for UK Citizen from England" name="Submit the form without Partner, TaxBenifits, with some benfits and not live in care home and verify the (Age below 50)" time="23.349">
         <system-out><![CDATA[Given I am a person from England practicing GP "yes" and registered dental in "Scotland".passed
 When I am born in "1973" at England.........................................passed
 And I put my circumstances into the checker tool with "no" Partner "no" TaxBenefits and "no,different benefit" PaidUniversalCredit from England.passed
@@ -23,7 +23,7 @@ And I live in Care home "no" at England.....................................pass
 Then I should get a result of whether I will get help or not if i am from England.passed
 ]]></system-out>
     </testcase>
-    <testcase classname="NHS Costs Checker for UK Citizen from England" name="Submit the form with age under 19 (no fulltime education), Partner, TaxBenifits and waiting for UniversalCredit with some benefits and verify the results (Age below 19)" time="41.59">
+    <testcase classname="NHS Costs Checker for UK Citizen from England" name="Submit the form with age under 19 (no fulltime education), Partner, TaxBenifits and waiting for UniversalCredit with some benefits and verify the results (Age below 19)" time="20.079">
         <system-out><![CDATA[Given I am a person from England practicing GP "yes" and registered dental in "England".passed
 When I am born in "2003" at England.........................................passed
 And I am getting fulltime education "no" at England.........................passed
@@ -31,65 +31,65 @@ And I put my circumstances into the checker tool with "yes" Partner "yes" TaxBen
 Then I should get a result of whether I will get help or not if i am from England.passed
 ]]></system-out>
     </testcase>
-    <testcase classname="NHS Costs Checker for UK Citizen from England" name="Submit the form with age under 19 (with fulltime education), Partner, TaxBenifits and waiting for UniversalCredit and verify the results (Age below 19)" time="35.838">
+    <testcase classname="NHS Costs Checker for UK Citizen from England" name="Submit the form with age under 19 (with fulltime education), Partner, TaxBenifits and waiting for UniversalCredit and verify the results (Age below 19)" time="14.412">
         <system-out><![CDATA[Given I am a person from England practicing GP "yes" and registered dental in "England".passed
 When I am born in "2003" at England.........................................passed
 And I am getting fulltime education "yes" at England........................passed
 Then I should get a result based on age of whether I will get help or not if i am from England.passed
 ]]></system-out>
     </testcase>
-    <testcase classname="NHS Costs Checker for UK Citizen from England" name="Submit the form for user less than age 16 (Age below 16)" time="38.359">
+    <testcase classname="NHS Costs Checker for UK Citizen from England" name="Submit the form for user less than age 16 (Age below 16)" time="12.458">
         <system-out><![CDATA[Given I am a person from England practicing GP "yes" and registered dental in "Nire".passed
 When I am born in "2014" at England.........................................passed
 Then I should get a result based on age of whether I will get help or not if i am from England.passed
 ]]></system-out>
     </testcase>
-    <testcase classname="NHS Costs Checker for UK Citizen from Northern Ireland" name="Submit the form for user from Northern Ireland" time="31.257">
+    <testcase classname="NHS Costs Checker for UK Citizen from Northern Ireland" name="Submit the form for user from Northern Ireland" time="8.617">
         <system-out><![CDATA[Given I am a person from Nire...............................................passed
 Then I am not able to use the service if i am from Nire.....................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="NHS Costs Checker for UK Citizen from Scotland" name="Submit the form with Partner, TaxBenifits and PaidUniversalCredit and verify the results" time="41.162">
+    <testcase classname="NHS Costs Checker for UK Citizen from Scotland" name="Submit the form with Partner, TaxBenifits and PaidUniversalCredit and verify the results" time="22.094">
         <system-out><![CDATA[Given I am a person from Scotland practicing GP "yes" and registered dental in "England".passed
 When I am born in "2001" at Scotland........................................passed
 And I put my circumstances into the checker tool with "yes" Partner "yes" TaxBenefits and "yes" PaidUniversalCredit from Scotland.passed
 Then I should get a result of whether I will get help or not if i am from Scotland.passed
 ]]></system-out>
     </testcase>
-    <testcase classname="NHS Costs Checker for UK Citizen from Scotland" name="Submit the form with Partner, TaxBenifits and waiting for PaidUniversalCredit with sonme benefits and verify the results" time="40.612">
+    <testcase classname="NHS Costs Checker for UK Citizen from Scotland" name="Submit the form with Partner, TaxBenifits and waiting for PaidUniversalCredit with sonme benefits and verify the results" time="20.096">
         <system-out><![CDATA[Given I am a person from Scotland practicing GP "yes" and registered dental in "Wales".passed
 When I am born in "2001" at Scotland........................................passed
 And I put my circumstances into the checker tool with "yes" Partner "yes" TaxBenefits and "not-yet" PaidUniversalCredit from Scotland.passed
 Then I should get a result of whether I will get help or not if i am from Scotland.passed
 ]]></system-out>
     </testcase>
-    <testcase classname="NHS Costs Checker for UK Citizen from Scotland" name="Submit the form with Partner, TaxBenifits and getting ESA benefits and verify the results" time="45.817">
+    <testcase classname="NHS Costs Checker for UK Citizen from Scotland" name="Submit the form with Partner, TaxBenifits and getting ESA benefits and verify the results" time="24.09">
         <system-out><![CDATA[Given I am a person from Scotland practicing GP "yes" and registered dental in "Scotland".passed
 When I am born in "2001" at Scotland........................................passed
 And I put my circumstances into the checker tool with "yes" Partner "yes" TaxBenefits and "no,different benefit" PaidUniversalCredit from Scotland.passed
 Then I should get a result of whether I will get help or not if i am from Scotland.passed
 ]]></system-out>
     </testcase>
-    <testcase classname="NHS Costs Checker Error Messages Validation" name="Invalid Entry in fields in the cost checker tool" time="37.934">
+    <testcase classname="NHS Costs Checker Error Messages Validation" name="Invalid Entry in fields in the cost checker tool" time="16.452">
         <system-out><![CDATA[Given I am a person from England validation.................................passed
 When I am born in validation................................................passed
 Then I should not proceed further...........................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="NHS Costs Checker Error Messages Validation" name="Validate the mandatory fields in the cost checker tool" time="46.488">
+    <testcase classname="NHS Costs Checker Error Messages Validation" name="Validate the mandatory fields in the cost checker tool" time="29.133">
         <system-out><![CDATA[Given I am a person from England validation.................................passed
 When I put my circumstances into the checker tool with Partner TaxBenifits and UniversalCredit validation.passed
 Then I should get a result of whether I will get help or not validation.....passed
 ]]></system-out>
     </testcase>
-    <testcase classname="NHS Costs Checker for UK Citizen from Wales" name="Submit the form with Partner, TaxBenifits and PaidUniversalCredit and verify the results (Age below 50)" time="38.098">
+    <testcase classname="NHS Costs Checker for UK Citizen from Wales" name="Submit the form with Partner, TaxBenifits and PaidUniversalCredit and verify the results (Age below 50)" time="20.895">
         <system-out><![CDATA[Given I am a person from Wales practicing GP "yes" and registered dental in "England".passed
 When I am born in "2001" at Wales...........................................passed
 And I put my circumstances into the checker tool with "yes" Partner "yes" TaxBenefits and "yes" PaidUniversalCredit from Wales.passed
 Then I should get a result of whether I will get help or not if i am from Wales.passed
 ]]></system-out>
     </testcase>
-    <testcase classname="NHS Costs Checker for UK Citizen from Wales" name="Submit the form without Partner, TaxBenifits, with some benfits and live in care home and verify the results (Age above 50)" time="42.757">
+    <testcase classname="NHS Costs Checker for UK Citizen from Wales" name="Submit the form without Partner, TaxBenifits, with some benfits and live in care home and verify the results (Age above 50)" time="20.225">
         <system-out><![CDATA[Given I am a person from Wales practicing GP "no" and registered dental in "Wales".passed
 When I am born in "1971" at Wales...........................................passed
 And I put my circumstances into the checker tool with "no" Partner "no" TaxBenefits and "no" PaidUniversalCredit from Wales.passed

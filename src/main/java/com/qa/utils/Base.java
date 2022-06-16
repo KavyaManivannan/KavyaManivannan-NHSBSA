@@ -23,10 +23,10 @@ public class Base {
 		prop.load(fis);
 
 		//to run via Command line: mvn test -Dbrowser=chrome
-		//String browserName=System.getProperty("browser");
+		String browserName=System.getProperty("browser");
 
 		//run in eclipse
-		String browserName = prop.getProperty("browser");	
+		//String browserName = prop.getProperty("browser");	
 
 		if(browserName.contains("chrome"))
 		{
